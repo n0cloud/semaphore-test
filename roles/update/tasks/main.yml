@@ -1,6 +1,6 @@
 ---
 - name: Update yum packages
-  apt:
+  yum:
     name: "*"
     state: latest
     update_cache: true
